@@ -8,6 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="Signup Form Car" method="POST">
+		
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50" required><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" minlength="3" maxlength="50"><br><br>
+		
+		<label for="gender">Gender:</label>
+        <input type="radio" id="gender_m" name="gender" value="male" required>
+        <label for="gender_m">Male</label>
+        <input type="radio" id="gender_f" name="gender" value="female" required>
+        <label for="gender_f">Female</label><br><br>
+
+		
+		<label for="car brands">Car Brands:</label>
+        <select id="cars" name="cars" required>
+            <option value="" disabled selected>--Please choose an option--</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="ford">Ford</option>
+        </select><br><br>
+		
+
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" minlength="3" maxlength="50"><br><br>
+
+		<label for="dob">DOB:</label>
+		<input type="date" id="dob" name="dob" minlength="3" maxlength="50"><br><br>
+
+		<label for="phone number">Phone Number:</label>
+		<input type="Tel" id="tel" name="tel" minlength="3" maxlength="50"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="Password" id="password" name="password" minlength="3" maxlength="50"><br><br>
+
+		<label for="I agree to the TOS">I agree to the TOS:</label>
+		<input type="checkbox" id="tos" name="tos" minlength="3" maxlength="50"><br><br>
+		
+        <button type="submit">Sign Up</button>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
